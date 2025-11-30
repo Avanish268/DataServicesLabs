@@ -13,7 +13,7 @@
 ![ai_studio_tools_catalog](./ai_studio_tools_catalog.png)
 
 * Let us create a List of Tools with the name as follows:
-  * Input Parser  `TeamXX` ( use your team name)
+  * Input Parser  `Vish` ( use your name)
 
 !!! NOTE
     Special characters are not allowed in Tool Name
@@ -42,7 +42,7 @@
 
 ![ai_studio_refresh_input_parser_tool](./ai_studio_refresh_input_parser_tool.png)
 
-* Similarly create the following tool using the same approach update the tool.py to create 3 more tools. Do not forget to add your Team name.
+* Similarly create the following tool using the same approach update the tool.py to create 3 more tools. Do not forget to add your name.
     * Geocode_Boundingbox Tool
     * Weather Tool
     * Air Quality Analysis Tool ( **Note** : You need to update 2 files here, tool.py and requirements.txt, see note below)

@@ -2,7 +2,7 @@
 
 ## Objectives
 
-In this Lab we will use Agent Studio to create the same Air quality Investigator System we built earlier, we will learn:
+In this Lab we will use Agent Studio to create the Air quality Investigator System , we will learn:
 
 - [ ] Create workflows in Agent Studio
 - [ ] Learn how to set up 5 agents, tasks and tools
@@ -23,7 +23,7 @@ In this Lab we will use Agent Studio to create the same Air quality Investigator
 
 * Click on `Create` button to launch a Workflow Template wizard.
 
-* Create a New template and give a name `Air Aware - Team XX` ( use the Name of your Team)
+* Create a New template and give a name `Air Aware - XXX` ( user your name)
 
 
 ![ai_studio_template](./ai_studio_template.png)
@@ -45,11 +45,11 @@ In this Lab we will use Agent Studio to create the same Air quality Investigator
 
 | Agent | Role | Backstory | Goal |
 | :---- | :---- | :---- | :---- |
-| input_parser_agent | Input Data Parser | Parse user-provided natural language input into structured parameters required for air quality analysis. | Efficient assistant for extracting structured information from user queries. |
-| bounding_box_retriever | Geospatial Data Specialist | Retrieve bounding box coordinates for the specified locations. | Expert in geographical information retrieval and spatial data analysis. |
-| weather_data_integrator | Historical Weather Data Specialist | Retrieve concise historical weather summaries for the specified locations and dates. | Expert in historical meteorological data analysis. |
-| air_quality_retriever | Air Quality Data Retriever | Fetch air quality data from OpenAQ for the specified locations and date range. | Specialized in accessing and retrieving air quality data. |
-| air_quality_analyst | Air Quality Analyst | Analyze air quality data and historical weather data to generate a report. | Experienced in air quality analysis and meteorological research.  |
+| input_parser_agent | 입력 데이터 파서 | 사용자가 제공한 자연어 입력을 공기 품질 분석에 필요한 구조화된 파라미터로 변환한다. | 사용자 질문에서 구조화된 정보를 효율적으로 추출하는 어시스턴트. |
+| bounding_box_retriever | 지리 공간 데이터 전문가 | 지정된 위치에 대한 바운딩 박스 좌표를 조회한다. | 지리 정보 검색 및 공간 데이터 분석 전문가. |
+| weather_data_integrator | 과거 기상 데이터 전문가 | 지정된 위치와 날짜에 대한 간단한 과거 기상 요약 정보를 조회한다. | 과거 기상 데이터 분석의 전문 연구자. |
+| air_quality_retriever | 대기질 데이터 조회자 | 지정된 위치와 날짜 범위에 대해 OpenAQ에서 대기질 데이터를 가져온다. | 대기질 데이터 접근 및 조회에 특화된 전문가. |
+| air_quality_analyst | 대기질 분석가 | 대기질 데이터와 과거 기상 데이터를 분석해 리포트를 한글로 생성한다. | 대기질 분석 및 기상학 연구 경험이 풍부한 분석가.  |
 
 * We will not use any Tools at this point, we will add the tools later. Also we will not use any MCP Server at this point  
 

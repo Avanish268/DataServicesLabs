@@ -10,10 +10,20 @@
 * Click on the capability description and add the below text into the text box under Capability guide
 
 ```text {.prompt-block}
-The "Air Aware" workflow is designed to provide a comprehensive analysis of air quality for specified locations over a given date range. It involves a series of specialized agents and tasks that work collaboratively to achieve this goal. The process begins with the retrieval of bounding box coordinates for each location, which are then used to gather historical weather data focusing on factors that influence air quality, such as temperature, wind, and precipitation. Concurrently, air quality data is fetched from OpenAQ, focusing on specified parameters if provided. The collected data is then analyzed to identify trends, calculate averages, and explore potential correlations between weather conditions and air quality. The workflow culminates in a detailed report that summarizes the air quality situation for each location, highlighting key findings and notable observations related to weather patterns.
+“Air Aware” 워크플로우는 지정된 위치에 대해 특정 날짜 범위 동안의 대기질을 종합적으로 분석하기 위해 설계되었습니다. 이 과정은 여러 전문 에이전트(agent)와 작업들로 구성되어 있으며, 이들이 협력하여 목표를 달성합니다.
+워크플로우는 먼저 각 위치의 바운딩 박스(bounding box) 좌표를 조회하는 것으로 시작되며, 이 좌표를 기반으로 기온, 풍속, 강수량 등 대기질에 영향을 미치는 요소들에 대한 과거 기상 데이터를 수집합니다.
+동시에 OpenAQ로부터 대기질 데이터를 가져오는데, 사용자가 특정 파라미터를 지정한 경우 그 항목에 중점을 둡니다.
 
-Input to the tool : 
-Can you provide an air quality report for Sydney  between 01.Jan.2025 to 03.Jan.2025 focussing on pm25 parameter
+이렇게 수집된 데이터는 이후 분석되어,
+- 대기질의 변화 추세
+- 관련 평균값
+- 기상 조건과 대기질 간의 잠재적 상관관계
+등을 파악합니다.
+
+최종적으로 각 위치에 대한 상세 보고서가 생성되며, 이는 해당 기간 동안의 대기질 상황을 요약하고, 주요 발견 사항과 기상 패턴에 따른 의미 있는 관찰 내용을 포함합니다.
+
+사용자 입력 예시 : 
+2025년 1월 1일부터 2025년 1월 3일까지 서울의 대기질 보고서를 초미세먼지 2.5 파라미터 중심으로 제공해줄 수 있나요?
 
 ```
 
@@ -29,7 +39,7 @@ Can you provide an air quality report for Sydney  between 01.Jan.2025 to 03.Jan.
 * Test the workflow by adding the following text in `user_input` text box below
 
 ```text {.prompt-block}
-Can you provide an air quality report for Sydney, Australia  between 01.Jan.2025 to 03.Jan.2025 focussing on pm25 parameter
+Can you provide an air quality report for Sydney, Australia  between 01.Jan.2025 to 03.Jan.2025 focussing on pm25 parameter?
 ```
 
 ![ai_studio_test_workflow](./ai_studio_test_workflow.png)

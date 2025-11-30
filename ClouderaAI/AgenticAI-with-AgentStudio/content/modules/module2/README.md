@@ -4,70 +4,59 @@ With now a greater appreciation of the complexities in designing Agents by hand,
 
 **Goals**
 
-- [ ] Create Templates and workflows in Agent Studio
-- [ ] Learn how to set up agents, tools and tasks
-- [ ] Build Custom Tools using Agent Studio
-- [ ] Test and Deploy the Workflow
-- [ ] Monitor the workflow
+- [ ] Create templates and workflows in Agent Studio  
+- [ ] Learn how to set up agents, tools, and tasks  
+- [ ] Build custom tools using Agent Studio  
+- [ ] Test and deploy the workflow  
+- [ ] Monitor the workflow  
 
 ## Requirements
 
-- [ ] Access to the Lab Tenant set up with GOES Team
-- [ ] Agent Studio is already installed in the assigned Cloudera AI project
+- [ ]  Access to the Lab Tenant set up
+- [ ]  Agent Studio is already installed in the assigned Cloudera AI project
 
 ## Labs
 
-<div class="grid cards"  markdown>
+### Lab 1. Create Templates and Workflows in Agent Studio
 
-- :material-test-tube:{ .lg .middle } &nbsp; **Lab 1. Create Templates and workflows in Agent Studio**
+**Goals**
 
-    ***
+- [ ] Get familiar with Cloudera AI Studios  
+- [ ] Start creating agents in Cloudera AI Studios  
 
-    **Goals**
+**➡️ [Go to Lab 1](./lab1.md)**
 
-    - [ ] Get familiar with Cloudera AI Studios
-    - [ ] Start creating Agents in Cloudera AI Studios
+---
 
-    ***
+### Lab 2. Create Tasks in Agent Studio
 
-    [:octicons-arrow-right-24: Go to Lab 1](./lab1.md)
+**Goals**
 
-- :material-test-tube:{ .lg .middle } &nbsp; **Lab 2. Create Tasks in Agent Studio**
+- [ ] Create tasks for agents  
+- [ ] Create dynamic inputs (imputation)  
 
-    ***
+**➡️ [Go to Lab 2](./lab2.md)**
 
-    **Goals**
+---
 
-    - [ ] Create Tasks for Agents  
-    - [ ] Create Dynamic Inputs (Imputation)
+### Lab 3. Create Custom Tools in Agent Studio
 
-    ***
+**Goals**
 
-    [:octicons-arrow-right-24: Go to Lab 2](./lab2.md)
+- [ ] Ensure agent workflows can connect to APIs and S3 buckets  
+- [ ] Ensure agents have the required data to function  
 
-- :material-test-tube:{ .lg .middle } &nbsp; **Lab 3. Create Custom Tools in Agent Studio**
+**➡️ [Go to Lab 3](./lab3.md)**
 
-    ***
+---
 
-    **Goals**
+### Lab 4. Test, Monitor, and Deploy Workflows
 
-    - [ ] Ensure the Agent Workflows are able to connect to APIs and S3 buckets.
-    - [ ] Ensure the Agents have the required data to function.
+**Goals**
 
-    ***
+- [ ] Learn how to test the agentic workflow  
+- [ ] Monitor workflow execution  
+- [ ] Deploy the workflow as an application  
 
-    [:octicons-arrow-right-24: Go to Lab 3](./lab3.md)
+**➡️ [Go to Lab 4](./lab4.md)**
 
-- :material-test-tube:{ .lg .middle } &nbsp; **Lab 4. Test, Monitor and Deploy Workflows**
-
-    ***
-
-    **Goals**
-
-    - [ ] How to test our Agentic Workflow, Monitor it and Deploy it as an Application
-
-    ***
-
-    [:octicons-arrow-right-24: Go to Lab 4](./lab4.md)
-
-</div>
