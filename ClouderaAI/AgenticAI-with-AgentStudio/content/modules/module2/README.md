@@ -12,7 +12,7 @@ With now a greater appreciation of the complexities in designing Agents by hand,
 
 ## Requirements
 
-- [ ]  Access to the Lab Tenant is already set up.
+- [ ]  Access to the Lab Tenant which is already set up.
 - [ ]  Agent Studio is already installed in the assigned Cloudera AI project.
 - [ ]  OpenAi api key is already setup in the assigned Cloudera AI project.
 - [ ]  OpenAQ api key needs to be setup to get AQI and temparature data.

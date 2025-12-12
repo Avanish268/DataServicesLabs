@@ -39,7 +39,7 @@
 * Test the workflow by adding the following text in `user_input` text box below
 
 ```text {.prompt-block}
-Can you provide an air quality report for Sydney, Australia  between 01.Jan.2025 to 03.Jan.2025 focussing on pm25 parameter?
+2025년 1월 1일부터 2025년 1월 3일까지 서울의 대기질 보고서를 초미세먼지 2.5 파라미터 중심으로 제공해줄 수 있나요?
 ```
 
 ![ai_studio_test_workflow](./ai_studio_test_workflow.png)

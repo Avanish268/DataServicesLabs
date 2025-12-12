@@ -20,7 +20,7 @@
 
 ![ai_studio_create_tool_template](./ai_studio_create_tool_template.png)
 
-* Click on Edit tool file show  
+* Click on Edit tool file shown  
 
 ![ai_studio_edit_tool_file](./ai_studio_edit_tool_file.png)
 
@@ -29,7 +29,7 @@
 
 * Update the Tool Code : 
     * Goto the Github Location for CAI custom tools [url](https://github.com/SuperEllipse/AirAware/tree/Lab/agent_tools_cai_studio)
-    * Copy the input_parser_tool.py code into the tool.py file 
+    * Copy the `input_parser_tool.py` code into the `tool.py` file 
     * Now you go to the location and update the `input_parser_tool.py` code in Cloudera AI `tool.py`file. 
 
 !!! Danger "Important"
@@ -42,23 +42,23 @@
 
 ![ai_studio_refresh_input_parser_tool](./ai_studio_refresh_input_parser_tool.png)
 
-* Similarly create the following tool using the same approach update the tool.py to create 3 more tools. Do not forget to add your name.
-    * Geocode_Boundingbox Tool
+* Similarly create the following tool using the same approach update the `tool.py` to create 3 more tools. Do not forget to add your name.
+    * Geocode Boundingbox Tool
     * Weather Tool
-    * Air Quality Analysis Tool ( **Note** : You need to update 2 files here, tool.py and requirements.txt, see note below)
+    * Air Quality Analysis Tool ( **Note** : You need to update 2 files here, `tool.py` and `requirements.txt`, see note below)
 
-!!! danger "Important"
-    For the Air Quality Analysis Tool, we need some additional packags, so please update the requirements.txt with the packages below
-    ```
-    #UPDATE THE requirements.txt with the below
-    # https://pip.pypa.io/en/stable/reference/requirements-file-format/
-    pydantic
-    boto3==1.38.17
-    pandas==2.2.3
-    ```
+Note:
+    **For the Air Quality Analysis Tool, additional Python packages are required.
+    Please update your `requirements.txt` file to include the packages shown below.**
 
+```sh
+# requirements.txt
+# https://pip.pypa.io/en/stable/reference/requirements-file-format/
 
-  
+pydantic
+boto3==1.38.17
+pandas==2.2.3
+```
 
 * Confirm in Tools Catalog if the tools that you have created are listed.
 
@@ -92,9 +92,9 @@
 ![ai_studio_input_parser_workflow](./ai_studio_input_parser_workflow.png)
 
 * Follow the same approach to add all the other tools to our agentic workflow i.e.
-    * Geocoding Tool
-    * Weather Tool
-    * Air Quality Analysis Tool  
+    * Geocoding Tool `your name`
+    * Weather Tool `your name`
+    * Air Quality Analysis Tool `your name` 
 
 
 * Finally your workflow should look like below.

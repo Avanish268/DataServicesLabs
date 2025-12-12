@@ -33,7 +33,7 @@ Now let us define the tasks for our Agents to work on.
     2025년 1월 1일부터 2025년 1월 3일까지 서울의 대기질 보고서를 초미세먼지 2.5 파라미터 중심으로 제공해줄 수 있나요?
     ```
 
-* As you can see the LLM is now hallucinating and generating data for New York and Los Angeles in Oct 2023 etc.
+* As a result llm might hallucinate and provide temperature/AQI for a different location or it can provide random data for the same location.
 
 ![ai_studio_workflow_test_hallucinating](./ai_studio_workflow_test_hallucinating.png)
 
